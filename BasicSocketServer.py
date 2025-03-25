@@ -52,7 +52,7 @@ def process_command(client, message):
     if message.strip() == "@bamboo":
         client.send("ʕ •ᴥ•ʔ Pandas love munching on bamboo! Did you know they eat around 26–84 pounds a day? ʕ•ᴥ• ʔ".encode())
     elif message.strip() == "@grove":
-        client.send("ʕ 0ᴥ0ʔ Welcome to the peaceful panda grove! Relax and enjoy. ʕ0ᴥ0 ʔ".encode())
+        client.send("ʕ •ᴥ•ʔ Did you know? Pandas spend up to 14 hours a day eating bamboo! Enjoy your stay in the bamboo grove! ʕ•ᴥ• ʔ".encode())
     elif message.strip() == "@leaves":
         client.send("ʕ ᵔᴥᵔʔ Fun fact: Pandas have a special thumb-like bone to grip bamboo leaves better! ʕᵔᴥᵔ ʔ".encode())
     else:
